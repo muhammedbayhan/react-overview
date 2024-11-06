@@ -1,8 +1,10 @@
+import classes from "./Post.module.css";
+
 const Post = (props) => {
   return (
-    <div>
-      <p>{props.author ?? "EMPTY"}</p>
-      <p>{props.body ?? "EMPTY"}</p>
+    <div className={classes.post}>
+      <p className={classes.author}>{props.author ?? "EMPTY"}</p>
+      <p className={classes.text}> {props.body ?? "EMPTY"}</p>
     </div>
   );
 };
