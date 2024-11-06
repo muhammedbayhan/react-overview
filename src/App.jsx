@@ -3,7 +3,7 @@ import Post from "./components/Post";
 function App() {
   return (
     <>
-      <Post />
+      <Post author="Muhammed" body="Bayhannn" />
     </>
   );
 }

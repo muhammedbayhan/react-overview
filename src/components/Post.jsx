@@ -1,11 +1,8 @@
-const Post = () => {
-  const names = ["Muhammed", "Mehmet"];
-  const chooseName = Math.random() > 0.5 ? names[0] : names[1];
-
+const Post = (props) => {
   return (
     <div>
-      <p>{chooseName}</p>
-      <p>React.js is awesome</p>
+      <p>{props.author ?? "EMPTY"}</p>
+      <p>{props.body ?? "EMPTY"}</p>
     </div>
   );
 };
