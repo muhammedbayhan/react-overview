@@ -1,5 +1,11 @@
+import Post from "./components/Post";
+
 function App() {
-  return <div>HELLO </div>;
+  return (
+    <>
+      <Post />
+    </>
+  );
 }
 
 export default App;
