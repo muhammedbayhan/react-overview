@@ -1,12 +1,5 @@
-import Post from "./components/Post";
-import PostList from "./components/PostList";
-
 function App() {
-  return (
-    <>
-      <PostList />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
