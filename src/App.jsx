@@ -1,9 +1,9 @@
-import UseContext from "./Hooks/UseContext/UseContext";
+import CustomHook from "./Hooks/CustomHook/CustomHook";
 
 function App() {
   return (
     <>
-      <UseContext />
+      <CustomHook />
     </>
   );
 }
