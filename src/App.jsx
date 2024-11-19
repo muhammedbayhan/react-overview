@@ -1,9 +1,9 @@
-import UseEffect from "./Hooks/UseEffect";
+import UseContext from "./Hooks/UseContext/UseContext";
 
 function App() {
   return (
     <>
-      <UseEffect />
+      <UseContext />
     </>
   );
 }
