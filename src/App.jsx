@@ -1,9 +1,9 @@
-import CustomHook from "./Hooks/CustomHook/CustomHook";
+import Fetch from "./api/Fetch";
 
 function App() {
   return (
     <>
-      <CustomHook />
+      <Fetch />
     </>
   );
 }
