@@ -1,9 +1,9 @@
-import Fetch from "./api/Fetch";
+import Axios from "./api/Axios";
 
 function App() {
   return (
     <>
-      <Fetch />
+      <Axios />
     </>
   );
 }
