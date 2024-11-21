@@ -1,9 +1,9 @@
-import Lists from "./Lists/Lists";
+import Forms from "./Forms/Forms";
 
 function App() {
   return (
     <>
-      <Lists />
+      <Forms />
     </>
   );
 }
