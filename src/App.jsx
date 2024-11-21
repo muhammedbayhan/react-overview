@@ -1,9 +1,9 @@
-import EventHandling from "./EventHandling/EventHandling";
+import Lists from "./Lists/Lists";
 
 function App() {
   return (
     <>
-      <EventHandling />
+      <Lists />
     </>
   );
 }
