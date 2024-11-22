@@ -1,9 +1,9 @@
-import Forms from "./Forms/Forms";
+import LiftingStateUp from "./LiftingStateUp/LiftingStateUp";
 
 function App() {
   return (
     <>
-      <Forms />
+      <LiftingStateUp />
     </>
   );
 }
