@@ -1,9 +1,9 @@
-import LiftingStateUp from "./LiftingStateUp/LiftingStateUp";
+import Composition from "./Composition/Composition";
 
 function App() {
   return (
     <>
-      <LiftingStateUp />
+      <Composition />
     </>
   );
 }
