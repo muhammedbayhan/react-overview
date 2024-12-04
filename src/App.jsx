@@ -1,9 +1,9 @@
-import Composition from "./Composition/Composition";
+import TodoView from "./redux/views/TodoView";
 
 function App() {
   return (
     <>
-      <Composition />
+      <TodoView />
     </>
   );
 }
