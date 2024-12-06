@@ -1,9 +1,9 @@
-import TodoView from "./redux/views/TodoView";
+import ThemeView from "./redux/views/ThemeView";
 
 function App() {
   return (
     <>
-      <TodoView />
+      <ThemeView />
     </>
   );
 }
