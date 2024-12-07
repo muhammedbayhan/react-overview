@@ -1,9 +1,9 @@
-import ThemeView from "./redux/views/ThemeView";
+import RouterApp from "./react-router-dom/RouterApp";
 
 function App() {
   return (
     <>
-      <ThemeView />
+      <RouterApp />
     </>
   );
 }
