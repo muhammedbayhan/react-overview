@@ -1,9 +1,9 @@
-import RouterApp from "./react-router-dom/RouterApp";
+import FormikYup from "./formik-yup/FormikYup";
 
 function App() {
   return (
     <>
-      <RouterApp />
+      <FormikYup />
     </>
   );
 }
