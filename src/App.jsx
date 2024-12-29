@@ -1,9 +1,9 @@
-import FormikYup from "./formik-yup/FormikYup";
+import MaterialUi from "./material-ui/MaterialUi";
 
 function App() {
   return (
     <>
-      <FormikYup />
+      <MaterialUi />
     </>
   );
 }
